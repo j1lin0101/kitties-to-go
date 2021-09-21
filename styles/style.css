@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #2C9AB7;
+  width: 100%;
+  color: white;
+}
