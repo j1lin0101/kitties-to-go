@@ -103,3 +103,22 @@ mark {
   color: #2C9AB7;
   background-color: inherit;
 }
+
+#banner {
+  width: 100%;
+}
+
+.description {
+  width: 50%;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+}
+
+.description a {
+  text-decoration: none;
+  color: #2C9AB7;
+}
