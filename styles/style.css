@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #2C9AB7;
+  background-color: #1A596B;
   color: white;
   padding: 1rem 10rem;
 }
@@ -22,13 +22,18 @@ a {
 }
 
 a + a:before {
-  content: "/ ";
+  content: "/";
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .top-nav a {
   color: black;
   font-size: 0.9rem;
   font-weight: bold;
+  /* padding: .5rem;
+  margin: .5rem; */
+  text-align: center;
 }
 
 aside {
@@ -61,12 +66,12 @@ h2 {
 }
 
 h3 {
-  color: #2C9AB7;
+  color: #1A596B;
   margin-top: 2rem;
 }
 
 blockquote {
-  color: #2C9AB7;
+  color: #1A596B;
   font-size: 1.5rem;
   font-weight: lighter;
 }
@@ -76,7 +81,7 @@ p{
 }
 
 .find-out-more {
-  color: #2C9AB7;
+  color: #1A596B;
 }
 
 footer {
@@ -100,7 +105,7 @@ figure {
 }
 
 mark {
-  color: #2C9AB7;
+  color: #1A596B;
   background-color: inherit;
 }
 
@@ -120,5 +125,15 @@ mark {
 
 .description a {
   text-decoration: none;
-  color: #2C9AB7;
+  color: #1A596B;
+}
+
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
 }
